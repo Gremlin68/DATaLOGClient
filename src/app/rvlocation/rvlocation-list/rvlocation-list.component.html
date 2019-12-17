@@ -1,0 +1,32 @@
+<div class="row"> 
+    <div class="col-md-offset-10 col-md-2">
+      <!-- <a href="#">Create owner</a> -->
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>instance</th>
+               <th>Location</th>
+              <th>Cache File Last Updated</th>
+              <th>DatRoot Last Updated</th>
+              <th>Report Last Updated</th> 
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let rvlocation of rvlocations">
+              <td>{{rvlocation.instance}}</td>
+              <td>{{rvlocation.location}}</td>
+              <td>{{rvlocation.cacheFileLastUpdated | date: 'dd/MM/yyyy h:mm a'}}</td>
+              <td>{{rvlocation.datRootLastUpdated | date: 'dd/MM/yyyy h:mm a'}}</td>              
+              <td>{{rvlocation.reportLastUpdated | date: 'dd/MM/yyyy h:mm a'}}</td>              
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
