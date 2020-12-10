@@ -8,7 +8,6 @@
       "circleci.com/project-slug": "github/example-org/artist-website"
     },
     "description": "The place to be, for great artists",
-    "etag": "ZjU2MWRkZWUtMmMxZS00YTZiLWFmMWMtOTE1NGNiZDdlYzNk",
     "generation": 1,
     "labels": {
       "system": "public-websites"
