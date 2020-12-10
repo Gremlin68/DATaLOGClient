@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: datalog client
+  name: DATaLOG-Client
   description: |
     A Client for managing DAT Files
   annotations:
